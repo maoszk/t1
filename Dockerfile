@@ -9,6 +9,7 @@ RUN apt-get install build-essential -y
 RUN apt-get install vim -y
 RUN pip install --upgrade pip
 
+#test
 #不足?
 #他のモジュールについても、一部ReNom指定とバージョン異なるものあり
 RUN pip install pytest==3.0.7
