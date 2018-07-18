@@ -10,7 +10,7 @@ RUN apt-get install vim -y
 RUN pip install --upgrade pip
 
 #不足?
-#他のモジュールも一部ReNom指定とバージョン異なるものあり
+#他のモジュールについても、一部ReNom指定とバージョン異なるものあり
 RUN pip install pytest==3.0.7
 RUN pip install PyQt5
 
