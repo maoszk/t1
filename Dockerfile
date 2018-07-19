@@ -1,6 +1,8 @@
 # jupyter/scipy-notebook　イメージをもとにReNom環境を構築する
 FROM jupyter/scipy-notebook
 
+#proxy設定を追加する必要がある
+
 USER root
 #build-essentialsなど基本的なモジュールのインストール
 RUN apt-get update 
